@@ -1,0 +1,6 @@
+framework module Pods_My_Spanish_AmigoTests {
+  umbrella header "Pods-My Spanish AmigoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

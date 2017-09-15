@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75AC0981AA7FFD64F9508192 /* Pods_My_Spanish_Amigo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC68FA8CF24D9D56A2D829C /* Pods_My_Spanish_Amigo.framework */; };
+		912537F7B7A66B9DADCF3F55 /* Pods_My_Spanish_AmigoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92765148FB12A8BE3ECB36AF /* Pods_My_Spanish_AmigoUITests.framework */; };
+		D9439EABC7E4472E288D655A /* Pods_My_Spanish_AmigoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6984E33DB28167CEA1DF3826 /* Pods_My_Spanish_AmigoTests.framework */; };
+		EA158B131EDD40FC009F2031 /* MainQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA158B121EDD40FC009F2031 /* MainQuizViewController.swift */; };
+		EA158B151EDD4848009F2031 /* PlayQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA158B141EDD4848009F2031 /* PlayQuizViewController.swift */; };
+		EA158B171EDD647C009F2031 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA158B161EDD647C009F2031 /* RadioButton.swift */; };
+		EA27BD801EED394700639784 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27BD7F1EED394700639784 /* Chartboost.framework */; };
+		EA2CEB661EEB400000892434 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2CEB651EEB400000892434 /* MediaPlayer.framework */; };
+		EA2CEB681EEB401900892434 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2CEB671EEB401900892434 /* CoreLocation.framework */; };
+		EA5C5CFA1EE9BE0C00D8C01A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5C5CF91EE9BE0C00D8C01A /* GoogleService-Info.plist */; };
+		EA5C5D001EEAD6DC00D8C01A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5C5CFF1EEAD6DC00D8C01A /* CoreGraphics.framework */; };
+		EA5C5D021EEAD6E700D8C01A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5C5D011EEAD6E700D8C01A /* Foundation.framework */; };
+		EA5C5D041EEAD6F500D8C01A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5C5D031EEAD6F500D8C01A /* StoreKit.framework */; };
+		EA5C5D061EEADE5300D8C01A /* IDforAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C5D051EEADE5300D8C01A /* IDforAds.swift */; };
+		EA660B631EE0A2E80011DA3A /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA660B621EE0A2E80011DA3A /* ProgressIndicator.swift */; };
+		EA7021D91EE6533200D82390 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7021D81EE6533200D82390 /* DesignableView.swift */; };
+		EA7021DB1EE6552400D82390 /* TranslatePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7021DA1EE6552400D82390 /* TranslatePopupViewController.swift */; };
+		EA7021DD1EE67ABF00D82390 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7021DC1EE67ABF00D82390 /* DesignableButton.swift */; };
+		EA85B8EB1EA22C7F00CBE2B7 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85B8EA1EA22C7F00CBE2B7 /* MyCollectionViewCell.swift */; };
+		EA85B8ED1EA238A900CBE2B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85B8EC1EA238A900CBE2B7 /* MainViewController.swift */; };
+		EA85B8EF1EA3E23400CBE2B7 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85B8EE1EA3E23400CBE2B7 /* LessonsViewController.swift */; };
+		EA85B8F11EA3E87C00CBE2B7 /* LessonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85B8F01EA3E87C00CBE2B7 /* LessonsCollectionViewCell.swift */; };
+		EAAF04011EDBCAA7000460C4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF04001EDBCAA7000460C4 /* MenuTableViewCell.swift */; };
+		EAAF04031EDBCAC0000460C4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF04021EDBCAC0000460C4 /* MenuViewController.swift */; };
+		EAAF040C1EDC6F05000460C4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF040B1EDC6F05000460C4 /* Reachability.swift */; };
+		EAB2C1501EEB1DF500ED1CFC /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAB2C14E1EEB1DF500ED1CFC /* StartApp.bundle */; };
+		EAB2C1511EEB1DF500ED1CFC /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C14F1EEB1DF500ED1CFC /* StartApp.framework */; };
+		EAB2C1531EEB1EA600ED1CFC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C1521EEB1EA600ED1CFC /* CoreTelephony.framework */; };
+		EAB2C1551EEB1EB200ED1CFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C1541EEB1EB200ED1CFC /* SystemConfiguration.framework */; };
+		EAB2C1571EEB1ECE00ED1CFC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C1561EEB1ECE00ED1CFC /* AdSupport.framework */; };
+		EAB2C1591EEB1ED700ED1CFC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C1581EEB1ED700ED1CFC /* QuartzCore.framework */; };
+		EAB2C15B1EEB1EE100ED1CFC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C15A1EEB1EE100ED1CFC /* CoreMedia.framework */; };
+		EAB2C15D1EEB1EE900ED1CFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C15C1EEB1EE900ED1CFC /* AVFoundation.framework */; };
+		EAB2C15F1EEB1EFE00ED1CFC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2C15E1EEB1EFE00ED1CFC /* libz.tbd */; };
+		EAB66A471EAB62E1006A60F6 /* EnglishSpanishList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAB66A461EAB62E1006A60F6 /* EnglishSpanishList.plist */; };
+		EAB66A491EAD494E006A60F6 /* PracticeSpeekingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB66A481EAD494E006A60F6 /* PracticeSpeekingViewController.swift */; };
+		EAF313121EEB3816006335FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF313111EEB3816006335FC /* UIKit.framework */; };
+		EAF33F811E9A155800CAF2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF33F801E9A155800CAF2CF /* AppDelegate.swift */; };
+		EAF33F861E9A155800CAF2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF33F841E9A155800CAF2CF /* Main.storyboard */; };
+		EAF33F891E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAF33F871E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodeld */; };
+		EAF33F8B1E9A155800CAF2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF33F8A1E9A155800CAF2CF /* Assets.xcassets */; };
+		EAF33F8E1E9A155800CAF2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF33F8C1E9A155800CAF2CF /* LaunchScreen.storyboard */; };
+		EAF33F991E9A155800CAF2CF /* My_Spanish_AmigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF33F981E9A155800CAF2CF /* My_Spanish_AmigoTests.swift */; };
+		EAF33FA41E9A155800CAF2CF /* My_Spanish_AmigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF33FA31E9A155800CAF2CF /* My_Spanish_AmigoUITests.swift */; };
+		EAF4CE6C1EDDC6EA0032C82D /* LostPoint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAF4CE6A1EDDC6EA0032C82D /* LostPoint.mp3 */; };
+		EAF4CE6D1EDDC6EA0032C82D /* AddPoints.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAF4CE6B1EDDC6EA0032C82D /* AddPoints.wav */; };
+		EAF684F21EE214AF0005791A /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF684F11EE214AF0005791A /* PlayVideoViewController.swift */; };
+		EAF684F41EE24E930005791A /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF684F31EE24E930005791A /* MusicListViewController.swift */; };
+		EAF684F61EE2BE100005791A /* MucisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF684F51EE2BE100005791A /* MucisTableViewCell.swift */; };
+		EAF684FD1EE40F680005791A /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF684FC1EE40F680005791A /* TranslationService.swift */; };
+		EAF684FF1EE4F8760005791A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF684FE1EE4F8760005791A /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF33F951E9A155800CAF2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF33F751E9A155800CAF2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF33F7C1E9A155800CAF2CF;
+			remoteInfo = "My Spanish Amigo";
+		};
+		EAF33FA01E9A155800CAF2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF33F751E9A155800CAF2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF33F7C1E9A155800CAF2CF;
+			remoteInfo = "My Spanish Amigo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2846DFEB179FA45C50D0E3AE /* Pods-My Spanish AmigoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Spanish AmigoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Spanish AmigoTests/Pods-My Spanish AmigoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA2872B0E3E7227EA7FD237 /* Pods-My Spanish Amigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Spanish Amigo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Spanish Amigo/Pods-My Spanish Amigo.debug.xcconfig"; sourceTree = "<group>"; };
+		6984E33DB28167CEA1DF3826 /* Pods_My_Spanish_AmigoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Spanish_AmigoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC68FA8CF24D9D56A2D829C /* Pods_My_Spanish_Amigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Spanish_Amigo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92765148FB12A8BE3ECB36AF /* Pods_My_Spanish_AmigoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Spanish_AmigoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CF7C59C14E6FFB76E3904D /* Pods-My Spanish AmigoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Spanish AmigoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Spanish AmigoTests/Pods-My Spanish AmigoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8A32D3DF72C8FE10758B805 /* Pods-My Spanish Amigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Spanish Amigo.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Spanish Amigo/Pods-My Spanish Amigo.release.xcconfig"; sourceTree = "<group>"; };
+		AB098E0FE380D589663C0275 /* Pods-My Spanish AmigoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Spanish AmigoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Spanish AmigoUITests/Pods-My Spanish AmigoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3CCFCE3B533C13A7F800CF3 /* Pods-My Spanish AmigoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Spanish AmigoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Spanish AmigoUITests/Pods-My Spanish AmigoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA158B121EDD40FC009F2031 /* MainQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQuizViewController.swift; sourceTree = "<group>"; };
+		EA158B141EDD4848009F2031 /* PlayQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayQuizViewController.swift; sourceTree = "<group>"; };
+		EA158B161EDD647C009F2031 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		EA27BD7F1EED394700639784 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		EA2CEB651EEB400000892434 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EA2CEB671EEB401900892434 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EA5C5CF91EE9BE0C00D8C01A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA5C5CFE1EEAD60700D8C01A /* My Spanish Amigo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Spanish Amigo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA5C5CFF1EEAD6DC00D8C01A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA5C5D011EEAD6E700D8C01A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA5C5D031EEAD6F500D8C01A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EA5C5D051EEADE5300D8C01A /* IDforAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDforAds.swift; sourceTree = "<group>"; };
+		EA660B621EE0A2E80011DA3A /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		EA7021D81EE6533200D82390 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		EA7021DA1EE6552400D82390 /* TranslatePopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatePopupViewController.swift; sourceTree = "<group>"; };
+		EA7021DC1EE67ABF00D82390 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		EA85B8EA1EA22C7F00CBE2B7 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA85B8EC1EA238A900CBE2B7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA85B8EE1EA3E23400CBE2B7 /* LessonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		EA85B8F01EA3E87C00CBE2B7 /* LessonsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAAF04001EDBCAA7000460C4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		EAAF04021EDBCAC0000460C4 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EAAF040B1EDC6F05000460C4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		EAB2C14E1EEB1DF500ED1CFC /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = StartApp.bundle; path = ../StartApp.bundle; sourceTree = "<group>"; };
+		EAB2C14F1EEB1DF500ED1CFC /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StartApp.framework; path = ../StartApp.framework; sourceTree = "<group>"; };
+		EAB2C1521EEB1EA600ED1CFC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EAB2C1541EEB1EB200ED1CFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EAB2C1561EEB1ECE00ED1CFC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EAB2C1581EEB1ED700ED1CFC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAB2C15A1EEB1EE100ED1CFC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EAB2C15C1EEB1EE900ED1CFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EAB2C15E1EEB1EFE00ED1CFC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EAB66A461EAB62E1006A60F6 /* EnglishSpanishList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnglishSpanishList.plist; sourceTree = "<group>"; };
+		EAB66A481EAD494E006A60F6 /* PracticeSpeekingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PracticeSpeekingViewController.swift; path = ../PracticeSpeekingViewController.swift; sourceTree = "<group>"; };
+		EAF313111EEB3816006335FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAF33F7D1E9A155800CAF2CF /* Español Amigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Español Amigo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF33F801E9A155800CAF2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAF33F851E9A155800CAF2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF33F881E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Spanish_Amigo.xcdatamodel; sourceTree = "<group>"; };
+		EAF33F8A1E9A155800CAF2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF33F8D1E9A155800CAF2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAF33F8F1E9A155800CAF2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF33F941E9A155800CAF2CF /* My Spanish AmigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Spanish AmigoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF33F981E9A155800CAF2CF /* My_Spanish_AmigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Spanish_AmigoTests.swift; sourceTree = "<group>"; };
+		EAF33F9A1E9A155800CAF2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF33F9F1E9A155800CAF2CF /* My Spanish AmigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Spanish AmigoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF33FA31E9A155800CAF2CF /* My_Spanish_AmigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Spanish_AmigoUITests.swift; sourceTree = "<group>"; };
+		EAF33FA51E9A155800CAF2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF4CE6A1EDDC6EA0032C82D /* LostPoint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LostPoint.mp3; sourceTree = "<group>"; };
+		EAF4CE6B1EDDC6EA0032C82D /* AddPoints.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AddPoints.wav; sourceTree = "<group>"; };
+		EAF684F11EE214AF0005791A /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		EAF684F31EE24E930005791A /* MusicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		EAF684F51EE2BE100005791A /* MucisTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MucisTableViewCell.swift; sourceTree = "<group>"; };
+		EAF684FC1EE40F680005791A /* TranslationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		EAF684FE1EE4F8760005791A /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF33F7A1E9A155800CAF2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2CEB681EEB401900892434 /* CoreLocation.framework in Frameworks */,
+				EA2CEB661EEB400000892434 /* MediaPlayer.framework in Frameworks */,
+				EAF313121EEB3816006335FC /* UIKit.framework in Frameworks */,
+				EAB2C15F1EEB1EFE00ED1CFC /* libz.tbd in Frameworks */,
+				EAB2C15D1EEB1EE900ED1CFC /* AVFoundation.framework in Frameworks */,
+				EAB2C15B1EEB1EE100ED1CFC /* CoreMedia.framework in Frameworks */,
+				EAB2C1591EEB1ED700ED1CFC /* QuartzCore.framework in Frameworks */,
+				EAB2C1571EEB1ECE00ED1CFC /* AdSupport.framework in Frameworks */,
+				EA5C5D041EEAD6F500D8C01A /* StoreKit.framework in Frameworks */,
+				EA27BD801EED394700639784 /* Chartboost.framework in Frameworks */,
+				EA5C5D001EEAD6DC00D8C01A /* CoreGraphics.framework in Frameworks */,
+				EAB2C1551EEB1EB200ED1CFC /* SystemConfiguration.framework in Frameworks */,
+				EAB2C1531EEB1EA600ED1CFC /* CoreTelephony.framework in Frameworks */,
+				EA5C5D021EEAD6E700D8C01A /* Foundation.framework in Frameworks */,
+				EAB2C1511EEB1DF500ED1CFC /* StartApp.framework in Frameworks */,
+				75AC0981AA7FFD64F9508192 /* Pods_My_Spanish_Amigo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF33F911E9A155800CAF2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9439EABC7E4472E288D655A /* Pods_My_Spanish_AmigoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF33F9C1E9A155800CAF2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912537F7B7A66B9DADCF3F55 /* Pods_My_Spanish_AmigoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F89D07C89B0393DDD77077 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA2872B0E3E7227EA7FD237 /* Pods-My Spanish Amigo.debug.xcconfig */,
+				A8A32D3DF72C8FE10758B805 /* Pods-My Spanish Amigo.release.xcconfig */,
+				2846DFEB179FA45C50D0E3AE /* Pods-My Spanish AmigoTests.debug.xcconfig */,
+				93CF7C59C14E6FFB76E3904D /* Pods-My Spanish AmigoTests.release.xcconfig */,
+				E3CCFCE3B533C13A7F800CF3 /* Pods-My Spanish AmigoUITests.debug.xcconfig */,
+				AB098E0FE380D589663C0275 /* Pods-My Spanish AmigoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9489F2FD72D49F05961D59F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA2CEB671EEB401900892434 /* CoreLocation.framework */,
+				EA2CEB651EEB400000892434 /* MediaPlayer.framework */,
+				EAF313111EEB3816006335FC /* UIKit.framework */,
+				EAB2C15E1EEB1EFE00ED1CFC /* libz.tbd */,
+				EAB2C15C1EEB1EE900ED1CFC /* AVFoundation.framework */,
+				EAB2C15A1EEB1EE100ED1CFC /* CoreMedia.framework */,
+				EAB2C1581EEB1ED700ED1CFC /* QuartzCore.framework */,
+				EAB2C1561EEB1ECE00ED1CFC /* AdSupport.framework */,
+				EAB2C1541EEB1EB200ED1CFC /* SystemConfiguration.framework */,
+				EAB2C1521EEB1EA600ED1CFC /* CoreTelephony.framework */,
+				EA5C5D031EEAD6F500D8C01A /* StoreKit.framework */,
+				EA5C5D011EEAD6E700D8C01A /* Foundation.framework */,
+				EA5C5CFF1EEAD6DC00D8C01A /* CoreGraphics.framework */,
+				6BC68FA8CF24D9D56A2D829C /* Pods_My_Spanish_Amigo.framework */,
+				6984E33DB28167CEA1DF3826 /* Pods_My_Spanish_AmigoTests.framework */,
+				92765148FB12A8BE3ECB36AF /* Pods_My_Spanish_AmigoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5C5CFB1EEAD5E600D8C01A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA27BD7F1EED394700639784 /* Chartboost.framework */,
+				EAB2C14F1EEB1DF500ED1CFC /* StartApp.framework */,
+				EAB2C14E1EEB1DF500ED1CFC /* StartApp.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7021D71EE652FE00D82390 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				EA7021D81EE6533200D82390 /* DesignableView.swift */,
+				EA7021DC1EE67ABF00D82390 /* DesignableButton.swift */,
+			);
+			name = Designables;
+			sourceTree = "<group>";
+		};
+		EAAF04061EDC1181000460C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAF4CE6A1EDDC6EA0032C82D /* LostPoint.mp3 */,
+				EAF4CE6B1EDDC6EA0032C82D /* AddPoints.wav */,
+				EAB66A461EAB62E1006A60F6 /* EnglishSpanishList.plist */,
+				EA5C5CF91EE9BE0C00D8C01A /* GoogleService-Info.plist */,
+				EAF33F871E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodeld */,
+				EAF33F8A1E9A155800CAF2CF /* Assets.xcassets */,
+				EAF33F8F1E9A155800CAF2CF /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EAAF04071EDC11B1000460C4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EAF33F8C1E9A155800CAF2CF /* LaunchScreen.storyboard */,
+				EAF33F841E9A155800CAF2CF /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		EAAF04081EDC11D1000460C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA85B8EC1EA238A900CBE2B7 /* MainViewController.swift */,
+				EAB66A481EAD494E006A60F6 /* PracticeSpeekingViewController.swift */,
+				EAAF04021EDBCAC0000460C4 /* MenuViewController.swift */,
+				EA85B8EE1EA3E23400CBE2B7 /* LessonsViewController.swift */,
+				EA158B121EDD40FC009F2031 /* MainQuizViewController.swift */,
+				EA158B141EDD4848009F2031 /* PlayQuizViewController.swift */,
+				EAF684F11EE214AF0005791A /* PlayVideoViewController.swift */,
+				EAF684F31EE24E930005791A /* MusicListViewController.swift */,
+				EAF684FE1EE4F8760005791A /* WelcomeViewController.swift */,
+				EA7021DA1EE6552400D82390 /* TranslatePopupViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAAF04091EDC11F3000460C4 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF04001EDBCAA7000460C4 /* MenuTableViewCell.swift */,
+				EA85B8F01EA3E87C00CBE2B7 /* LessonsCollectionViewCell.swift */,
+				EA85B8EA1EA22C7F00CBE2B7 /* MyCollectionViewCell.swift */,
+				EAF684F51EE2BE100005791A /* MucisTableViewCell.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		EAAF040A1EDC6EE7000460C4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF33F801E9A155800CAF2CF /* AppDelegate.swift */,
+				EAAF040B1EDC6F05000460C4 /* Reachability.swift */,
+				EA158B161EDD647C009F2031 /* RadioButton.swift */,
+				EA660B621EE0A2E80011DA3A /* ProgressIndicator.swift */,
+				EA5C5D051EEADE5300D8C01A /* IDforAds.swift */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		EAF33F741E9A155800CAF2CF = {
+			isa = PBXGroup;
+			children = (
+				EAF33F7F1E9A155800CAF2CF /* My Spanish Amigo */,
+				EAF33F971E9A155800CAF2CF /* My Spanish AmigoTests */,
+				EAF33FA21E9A155800CAF2CF /* My Spanish AmigoUITests */,
+				EAF33F7E1E9A155800CAF2CF /* Products */,
+				28F89D07C89B0393DDD77077 /* Pods */,
+				9489F2FD72D49F05961D59F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF33F7E1E9A155800CAF2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF33F7D1E9A155800CAF2CF /* Español Amigo.app */,
+				EAF33F941E9A155800CAF2CF /* My Spanish AmigoTests.xctest */,
+				EAF33F9F1E9A155800CAF2CF /* My Spanish AmigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF33F7F1E9A155800CAF2CF /* My Spanish Amigo */ = {
+			isa = PBXGroup;
+			children = (
+				EA5C5CFE1EEAD60700D8C01A /* My Spanish Amigo-Bridging-Header.h */,
+				EA5C5CFB1EEAD5E600D8C01A /* Frameworks */,
+				EA7021D71EE652FE00D82390 /* Designables */,
+				EAF684FB1EE40F3D0005791A /* Service */,
+				EAAF040A1EDC6EE7000460C4 /* Supporting files */,
+				EAAF04081EDC11D1000460C4 /* ViewControllers */,
+				EAAF04071EDC11B1000460C4 /* Storyboard */,
+				EAAF04091EDC11F3000460C4 /* TableCells */,
+				EAAF04061EDC1181000460C4 /* Resources */,
+			);
+			path = "My Spanish Amigo";
+			sourceTree = "<group>";
+		};
+		EAF33F971E9A155800CAF2CF /* My Spanish AmigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF33F981E9A155800CAF2CF /* My_Spanish_AmigoTests.swift */,
+				EAF33F9A1E9A155800CAF2CF /* Info.plist */,
+			);
+			path = "My Spanish AmigoTests";
+			sourceTree = "<group>";
+		};
+		EAF33FA21E9A155800CAF2CF /* My Spanish AmigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF33FA31E9A155800CAF2CF /* My_Spanish_AmigoUITests.swift */,
+				EAF33FA51E9A155800CAF2CF /* Info.plist */,
+			);
+			path = "My Spanish AmigoUITests";
+			sourceTree = "<group>";
+		};
+		EAF684FB1EE40F3D0005791A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EAF684FC1EE40F680005791A /* TranslationService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF33F7C1E9A155800CAF2CF /* My Spanish Amigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF33FA81E9A155800CAF2CF /* Build configuration list for PBXNativeTarget "My Spanish Amigo" */;
+			buildPhases = (
+				702D009F1A65991B26CAD230 /* 📦 Check Pods Manifest.lock */,
+				EAF33F791E9A155800CAF2CF /* Sources */,
+				EAF33F7A1E9A155800CAF2CF /* Frameworks */,
+				EAF33F7B1E9A155800CAF2CF /* Resources */,
+				CEA4835BCB5DAA11F8C9B9EA /* 📦 Embed Pods Frameworks */,
+				3462A9085FE2BD69F4C76076 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Spanish Amigo";
+			productName = "My Spanish Amigo";
+			productReference = EAF33F7D1E9A155800CAF2CF /* Español Amigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF33F931E9A155800CAF2CF /* My Spanish AmigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF33FAB1E9A155800CAF2CF /* Build configuration list for PBXNativeTarget "My Spanish AmigoTests" */;
+			buildPhases = (
+				1C88B743B75FACA9C12FBB36 /* 📦 Check Pods Manifest.lock */,
+				EAF33F901E9A155800CAF2CF /* Sources */,
+				EAF33F911E9A155800CAF2CF /* Frameworks */,
+				EAF33F921E9A155800CAF2CF /* Resources */,
+				24446018072BBCF2E68091C9 /* 📦 Embed Pods Frameworks */,
+				FADF8C871D8944F945A9049E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF33F961E9A155800CAF2CF /* PBXTargetDependency */,
+			);
+			name = "My Spanish AmigoTests";
+			productName = "My Spanish AmigoTests";
+			productReference = EAF33F941E9A155800CAF2CF /* My Spanish AmigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAF33F9E1E9A155800CAF2CF /* My Spanish AmigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF33FAE1E9A155800CAF2CF /* Build configuration list for PBXNativeTarget "My Spanish AmigoUITests" */;
+			buildPhases = (
+				CF24E17EF7F2B55103295290 /* 📦 Check Pods Manifest.lock */,
+				EAF33F9B1E9A155800CAF2CF /* Sources */,
+				EAF33F9C1E9A155800CAF2CF /* Frameworks */,
+				EAF33F9D1E9A155800CAF2CF /* Resources */,
+				D577D800B8C5626AC07DF202 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF33FA11E9A155800CAF2CF /* PBXTargetDependency */,
+			);
+			name = "My Spanish AmigoUITests";
+			productName = "My Spanish AmigoUITests";
+			productReference = EAF33F9F1E9A155800CAF2CF /* My Spanish AmigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF33F751E9A155800CAF2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ShivHari Apps";
+				TargetAttributes = {
+					EAF33F7C1E9A155800CAF2CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHF752NSR5;
+						ProvisioningStyle = Manual;
+					};
+					EAF33F931E9A155800CAF2CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHF752NSR5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAF33F7C1E9A155800CAF2CF;
+					};
+					EAF33F9E1E9A155800CAF2CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHF752NSR5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAF33F7C1E9A155800CAF2CF;
+					};
+				};
+			};
+			buildConfigurationList = EAF33F781E9A155800CAF2CF /* Build configuration list for PBXProject "My Spanish Amigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF33F741E9A155800CAF2CF;
+			productRefGroup = EAF33F7E1E9A155800CAF2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF33F7C1E9A155800CAF2CF /* My Spanish Amigo */,
+				EAF33F931E9A155800CAF2CF /* My Spanish AmigoTests */,
+				EAF33F9E1E9A155800CAF2CF /* My Spanish AmigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF33F7B1E9A155800CAF2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF33F8E1E9A155800CAF2CF /* LaunchScreen.storyboard in Resources */,
+				EAF33F8B1E9A155800CAF2CF /* Assets.xcassets in Resources */,
+				EAB66A471EAB62E1006A60F6 /* EnglishSpanishList.plist in Resources */,
+				EA5C5CFA1EE9BE0C00D8C01A /* GoogleService-Info.plist in Resources */,
+				EAF33F861E9A155800CAF2CF /* Main.storyboard in Resources */,
+				EAF4CE6C1EDDC6EA0032C82D /* LostPoint.mp3 in Resources */,
+				EAB2C1501EEB1DF500ED1CFC /* StartApp.bundle in Resources */,
+				EAF4CE6D1EDDC6EA0032C82D /* AddPoints.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF33F921E9A155800CAF2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF33F9D1E9A155800CAF2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C88B743B75FACA9C12FBB36 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24446018072BBCF2E68091C9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Spanish AmigoTests/Pods-My Spanish AmigoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3462A9085FE2BD69F4C76076 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Spanish Amigo/Pods-My Spanish Amigo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702D009F1A65991B26CAD230 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA4835BCB5DAA11F8C9B9EA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Spanish Amigo/Pods-My Spanish Amigo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF24E17EF7F2B55103295290 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D577D800B8C5626AC07DF202 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Spanish AmigoUITests/Pods-My Spanish AmigoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADF8C871D8944F945A9049E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Spanish AmigoTests/Pods-My Spanish AmigoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF33F791E9A155800CAF2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA660B631EE0A2E80011DA3A /* ProgressIndicator.swift in Sources */,
+				EAF684F61EE2BE100005791A /* MucisTableViewCell.swift in Sources */,
+				EA85B8EF1EA3E23400CBE2B7 /* LessonsViewController.swift in Sources */,
+				EAF33F891E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodeld in Sources */,
+				EAAF04011EDBCAA7000460C4 /* MenuTableViewCell.swift in Sources */,
+				EAF684FD1EE40F680005791A /* TranslationService.swift in Sources */,
+				EAF684F41EE24E930005791A /* MusicListViewController.swift in Sources */,
+				EA5C5D061EEADE5300D8C01A /* IDforAds.swift in Sources */,
+				EA85B8EB1EA22C7F00CBE2B7 /* MyCollectionViewCell.swift in Sources */,
+				EA7021D91EE6533200D82390 /* DesignableView.swift in Sources */,
+				EAAF04031EDBCAC0000460C4 /* MenuViewController.swift in Sources */,
+				EA158B151EDD4848009F2031 /* PlayQuizViewController.swift in Sources */,
+				EAF33F811E9A155800CAF2CF /* AppDelegate.swift in Sources */,
+				EAF684F21EE214AF0005791A /* PlayVideoViewController.swift in Sources */,
+				EA158B171EDD647C009F2031 /* RadioButton.swift in Sources */,
+				EA85B8F11EA3E87C00CBE2B7 /* LessonsCollectionViewCell.swift in Sources */,
+				EA7021DD1EE67ABF00D82390 /* DesignableButton.swift in Sources */,
+				EA85B8ED1EA238A900CBE2B7 /* MainViewController.swift in Sources */,
+				EA158B131EDD40FC009F2031 /* MainQuizViewController.swift in Sources */,
+				EAAF040C1EDC6F05000460C4 /* Reachability.swift in Sources */,
+				EA7021DB1EE6552400D82390 /* TranslatePopupViewController.swift in Sources */,
+				EAB66A491EAD494E006A60F6 /* PracticeSpeekingViewController.swift in Sources */,
+				EAF684FF1EE4F8760005791A /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF33F901E9A155800CAF2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF33F991E9A155800CAF2CF /* My_Spanish_AmigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF33F9B1E9A155800CAF2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF33FA41E9A155800CAF2CF /* My_Spanish_AmigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF33F961E9A155800CAF2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF33F7C1E9A155800CAF2CF /* My Spanish Amigo */;
+			targetProxy = EAF33F951E9A155800CAF2CF /* PBXContainerItemProxy */;
+		};
+		EAF33FA11E9A155800CAF2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF33F7C1E9A155800CAF2CF /* My Spanish Amigo */;
+			targetProxy = EAF33FA01E9A155800CAF2CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF33F841E9A155800CAF2CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF33F851E9A155800CAF2CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF33F8C1E9A155800CAF2CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF33F8D1E9A155800CAF2CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF33FA61E9A155800CAF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF33FA71E9A155800CAF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF33FA91E9A155800CAF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA2872B0E3E7227EA7FD237 /* Pods-My Spanish Amigo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Richa Srivastava (5BAZQLR9Y8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZHF752NSR5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+				);
+				INFOPLIST_FILE = "My Spanish Amigo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richa.shivhariapps.My-Spanish-Amigo";
+				PRODUCT_NAME = "Español Amigo";
+				PROVISIONING_PROFILE = "508d7ea0-558f-4736-bfb6-bc97e13c8ccb";
+				PROVISIONING_PROFILE_SPECIFIER = MySpanishAmigoDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF33FAA1E9A155800CAF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A32D3DF72C8FE10758B805 /* Pods-My Spanish Amigo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Richa Srivastava (ZHF752NSR5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Richa Srivastava (ZHF752NSR5)";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZHF752NSR5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+					"$(PROJECT_DIR)/My\\ Spanish\\ Amigo",
+				);
+				INFOPLIST_FILE = "My Spanish Amigo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richa.shivhariapps.My-Spanish-Amigo";
+				PRODUCT_NAME = "Español Amigo";
+				PROVISIONING_PROFILE = "c12a51fd-93bd-4588-96a6-17122c381f26";
+				PROVISIONING_PROFILE_SPECIFIER = MySpanishAmigoDistribution;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAF33FAC1E9A155800CAF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2846DFEB179FA45C50D0E3AE /* Pods-My Spanish AmigoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZHF752NSR5;
+				INFOPLIST_FILE = "My Spanish AmigoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richa.shivhariapps.My-Spanish-AmigoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Spanish Amigo.app/My Spanish Amigo";
+			};
+			name = Debug;
+		};
+		EAF33FAD1E9A155800CAF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CF7C59C14E6FFB76E3904D /* Pods-My Spanish AmigoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZHF752NSR5;
+				INFOPLIST_FILE = "My Spanish AmigoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richa.shivhariapps.My-Spanish-AmigoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Spanish Amigo.app/My Spanish Amigo";
+			};
+			name = Release;
+		};
+		EAF33FAF1E9A155800CAF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CCFCE3B533C13A7F800CF3 /* Pods-My Spanish AmigoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZHF752NSR5;
+				INFOPLIST_FILE = "My Spanish AmigoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richa.shivhariapps.My-Spanish-AmigoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Spanish Amigo";
+			};
+			name = Debug;
+		};
+		EAF33FB01E9A155800CAF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB098E0FE380D589663C0275 /* Pods-My Spanish AmigoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZHF752NSR5;
+				INFOPLIST_FILE = "My Spanish AmigoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richa.shivhariapps.My-Spanish-AmigoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Spanish Amigo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF33F781E9A155800CAF2CF /* Build configuration list for PBXProject "My Spanish Amigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF33FA61E9A155800CAF2CF /* Debug */,
+				EAF33FA71E9A155800CAF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF33FA81E9A155800CAF2CF /* Build configuration list for PBXNativeTarget "My Spanish Amigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF33FA91E9A155800CAF2CF /* Debug */,
+				EAF33FAA1E9A155800CAF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF33FAB1E9A155800CAF2CF /* Build configuration list for PBXNativeTarget "My Spanish AmigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF33FAC1E9A155800CAF2CF /* Debug */,
+				EAF33FAD1E9A155800CAF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF33FAE1E9A155800CAF2CF /* Build configuration list for PBXNativeTarget "My Spanish AmigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF33FAF1E9A155800CAF2CF /* Debug */,
+				EAF33FB01E9A155800CAF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAF33F871E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAF33F881E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodel */,
+			);
+			currentVersion = EAF33F881E9A155800CAF2CF /* My_Spanish_Amigo.xcdatamodel */;
+			path = My_Spanish_Amigo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAF33F751E9A155800CAF2CF /* Project object */;
+}

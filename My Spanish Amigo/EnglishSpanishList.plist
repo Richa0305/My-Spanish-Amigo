@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Very Basic Words</key>
+	<dict>
+		<key>a Hello or HI</key>
+		<string>Hola</string>
+		<key>b Yes</key>
+		<string>sí</string>
+		<key>c Please</key>
+		<string>Por favor</string>
+		<key>d Excuse me.</key>
+		<string>Con permiso.</string>
+		<key>e Thank you</key>
+		<string>gracias</string>
+		<key>f Bye!</key>
+		<string>¡Chao!</string>
+		<key>g The</key>
+		<string>la</string>
+		<key>h This</key>
+		<string>esta</string>
+		<key>i Is</key>
+		<string>es</string>
+		<key>j I</key>
+		<string>yo</string>
+		<key>k I am</key>
+		<string>Estoy</string>
+		<key>l You</key>
+		<string>tú</string>
+		<key>m You (formal)</key>
+		<string>Usted</string>
+		<key>n He</key>
+		<string>él</string>
+		<key>o She</key>
+		<string>ella</string>
+		<key>o they</key>
+		<string>ello</string>
+		<key>p I&apos;m sorry.</key>
+		<string>Lo siento.</string>
+		<key>q good</key>
+		<string>bueno</string>
+		<key>r goodbye</key>
+		<string>adiós</string>
+		<key>s man</key>
+		<string>hombre</string>
+		<key>t women</key>
+		<string>mujer</string>
+		<key>u girl</key>
+		<string>niña</string>
+		<key>v boy</key>
+		<string>chico</string>
+		<key>w bad</key>
+		<string>malo</string>
+		<key>x my love</key>
+		<string>mi amor</string>
+		<key>y more</key>
+		<string>más</string>
+	</dict>
+	<key>Introduction</key>
+	<dict>
+		<key>a My name is Sofia</key>
+		<string>me llamo Sofía</string>
+		<key>b I am Sofia</key>
+		<string>Soy Sofía</string>
+		<key>c Nice to meet you</key>
+		<string>mucho gusto</string>
+		<key>d What is your name?</key>
+		<string>¿Cómo se llama usted?</string>
+		<key>e Where are you from?</key>
+		<string>¿de donde eres?</string>
+		<key>f I am from </key>
+		<string>Soy de</string>
+		<key>g How are you?</key>
+		<string>¿Cómo estás?</string>
+		<key>h Very well. And you?</key>
+		<string>Muy bien. ¿Y tú?</string>
+		<key>i I am fine. Thank You!</key>
+		<string>Estoy Bien, gracias!</string>
+		<key>j And You?</key>
+		<string> ¿Y tú?</string>
+		<key>k I am doing great. Thank you</key>
+		<string>estoy haciendo grandes gracias</string>
+	</dict>
+	<key>Ask Question</key>
+	<dict>
+		<key>a Where</key>
+		<string>dónde</string>
+		<key>b Where do you live?</key>
+		<string>¿Dónde vives?</string>
+		<key>c Can</key>
+		<string>puede</string>
+		<key>d Can you help me?</key>
+		<string>¿me puedes ayudar?</string>
+		<key>e who</key>
+		<string>quien</string>
+		<key>f who is this?</key>
+		<string>¿quien es este?</string>
+		<key>g how, what</key>
+		<string>cómo</string>
+		<key>h How are you?</key>
+		<string>¿cómo estás?</string>
+		<key>i what</key>
+		<string>qué</string>
+		<key>j what is this</key>
+		<string>¿qué es este?</string>
+		<key>k why</key>
+		<string>Por què</string>
+		<key>l how much</key>
+		<string>cuánto</string>
+		<key>m how many</key>
+		<string>cuántos</string>
+		<key>n to where</key>
+		<string>adónde</string>
+		<key>o from where</key>
+		<string>de dónde</string>
+	</dict>
+	<key>Greetings</key>
+	<dict>
+		<key>a Good Morning</key>
+		<string>Buenos días</string>
+		<key>b Good Afternoon</key>
+		<string>Buenas tardes</string>
+		<key>c Good Evening</key>
+		<string>Buenas noches</string>
+		<key>d How are you?</key>
+		<string>¿Cómo está?</string>
+		<key>e How’s it going?</key>
+		<string>¿Qué tal?</string>
+		<key>f What’s happening?/What’s up?</key>
+		<string>¿Qué pasa?</string>
+		<key>g What happened?</key>
+		<string>¿Qué hubo?</string>
+		<key>h Welcome</key>
+		<string>Bienvenidos</string>
+		<key>i My house is your house</key>
+		<string>Mi casa es su casa</string>
+	</dict>
+	<key>Asking Direction</key>
+	<dict>
+		<key>a Do you speak english?</key>
+		<string>¿Hablas inglés?</string>
+		<key>b I&apos;m lost</key>
+		<string>Estoy perdido</string>
+		<key>c Can I help you?</key>
+		<string>¿puedo ayudarte?</string>
+		<key>d can you help me?</key>
+		<string>¿me puedes ayudar?</string>
+		<key>e Where is </key>
+		<string>dónde está</string>
+		<key>f i am looking for</key>
+		<string>Busco</string>
+		<key>g is it far?</key>
+		<string>¿Está lejos?</string>
+		<key>h Can I/we walk there?</key>
+		<string>¿Se puede ir andando?</string>
+		<key>i Write it down, please.</key>
+		<string>Escríbalo, por favor.</string>
+		<key>j speak slowly, please</key>
+		<string>habla despacio, por favor</string>
+		<key>k Would you speak slower, please.</key>
+		<string>Por favor, habla mas despacio</string>
+		<key>l I do not understand.</key>
+		<string>Yo no comprendo.</string>
+		<key>m right</key>
+		<string>derecho</string>
+		<key>n turn right</key>
+		<string>dar vuelta a la derecha</string>
+		<key>o left</key>
+		<string>izquierda</string>
+		<key>p turn left</key>
+		<string>dar vuelta a la izqierda</string>
+		<key>q go straight</key>
+		<string>ir directamente</string>
+	</dict>
+	<key>Counting</key>
+	<dict>
+		<key>a One</key>
+		<string>Uno</string>
+		<key>b Two</key>
+		<string>Dos</string>
+		<key>c Three</key>
+		<string>Tres</string>
+		<key>d Four</key>
+		<string>Cuatro</string>
+		<key>e Five</key>
+		<string>Cinco</string>
+		<key>f Six</key>
+		<string>Seis</string>
+		<key>g Seven</key>
+		<string>Siete</string>
+		<key>h Eight</key>
+		<string>Ocho</string>
+		<key>i Nine</key>
+		<string>Nueve</string>
+		<key>j Ten</key>
+		<string>Diez</string>
+	</dict>
+	<key>Restaurant</key>
+	<dict>
+		<key>a I want a</key>
+		<string>Quiero un</string>
+		<key>b What would you like to drink?</key>
+		<string>¿Qué le gustaría beber?</string>
+		<key>c Can I have water, please?</key>
+		<string>Puedo tener agua, por favor?</string>
+		<key>d One beer, please.</key>
+		<string>Uno cerveza, por favor.</string>
+		<key>e One glass of red/white wine, please.</key>
+		<string>Uno copa de rojo/blanco vino, por favor.</string>
+		<key>f I would like</key>
+		<string>Me gustaría</string>
+		<key>j Without</key>
+		<string>Sin</string>
+		<key>h With</key>
+		<string>Con</string>
+		<key>i No meat, please.</key>
+		<string>Sin carne, por favor.</string>
+		<key>j I’m a vegetarian</key>
+		<string>Soy vegetariano</string>
+		<key>k Can I have a napkin, please?</key>
+		<string>Puedo tener una servilleta?</string>
+	</dict>
+	<key>Pronunciation Albhabets</key>
+	<dict>
+		<key>a a</key>
+		<string>ah</string>
+		<key>b b</key>
+		<string>beh</string>
+		<key>c c</key>
+		<string>seh</string>
+		<key>d d</key>
+		<string>deh</string>
+		<key>e e</key>
+		<string>eh</string>
+		<key>f f</key>
+		<string>ef-eh</string>
+		<key>g g</key>
+		<string>heh</string>
+		<key>h h</key>
+		<string>ah-che</string>
+		<key>i i</key>
+		<string>ee</string>
+		<key>j j</key>
+		<string>hotah</string>
+		<key>k k</key>
+		<string>kah</string>
+		<key>l l</key>
+		<string>el-eh</string>
+		<key>m m</key>
+		<string>em-eh</string>
+		<key>n n</key>
+		<string>en-eh</string>
+		<key>n Ñ</key>
+		<string>en-yeh</string>
+		<key>o o</key>
+		<string>oh</string>
+		<key>p p</key>
+		<string>peh</string>
+		<key>q q</key>
+		<string>coo</string>
+		<key>r r</key>
+		<string>air-eh</string>
+		<key>s s</key>
+		<string>es-eh</string>
+		<key>t t</key>
+		<string>teh</string>
+		<key>u u</key>
+		<string>oo</string>
+		<key>v v</key>
+		<string>veh</string>
+		<key>w w</key>
+		<string>doh-vleh-veh</string>
+		<key>x x</key>
+		<string>eh-keys</string>
+		<key>y y</key>
+		<string>jeh</string>
+		<key>z z</key>
+		<string>seh-tah</string>
+	</dict>
+</dict>
+</plist>
